@@ -1,8 +1,8 @@
 function LogoContainer({imgSrc, imgAlt}){
     return(
         <>
-            <div>
-                <img src={imgSrc} alt={imgAlt} />
+            <div className="flex p-1">
+                <img className="w-16" src={imgSrc} alt={imgAlt} />
             </div>
         </>
     )

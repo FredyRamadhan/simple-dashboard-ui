@@ -1,7 +1,7 @@
 import React from 'react'
 import Navlink from "./Navlink"
 import LogoContainer from "./LogoContainer"
-import imgLink from "../assets/react.svg"
+import imgLink from "../assets/GRNDr.png"
 
 const Navbar = React.forwardRef((props, ref) => {
     return (
